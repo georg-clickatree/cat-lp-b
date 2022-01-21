@@ -1,0 +1,107 @@
+html, body {
+  font-family: 'Plus Jakarta Sans';
+}
+
+.btn.btn-primary {
+  background: #6b9b33;
+  font-weight: 500;
+  font-family: 'Plus Jakarta Sans';
+  /*font-size: 1.2rem;*/
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  border-radius: 0.5rem;
+  outline: none;
+  display: block;
+  border-color: transparent;
+}
+
+small {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #6b9b33;
+}
+
+.btn.btn-primary:hover {
+  background-color: #4f7326;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn.btn-primary {
+    font-size: 1.2rem;
+    display: inline-block;
+  }
+}
+
+a {
+  color: #6b9b33;
+  font-weight: 500;
+}
+
+a > i {
+  margin-right: 0.7rem;
+}
+
+.col.text-center-resp {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .col.text-center-resp {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo--mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-fluid.logo--desktop {
+    display: none;
+  }
+}
+
+.lead-heading {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .lead-heading {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.hero-col {
+  padding: 2rem 15px 2rem 15px;
+}
+
+@media (min-width: 768px) {
+  .hero-col {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    height: 90vh;
+  }
+}
+
